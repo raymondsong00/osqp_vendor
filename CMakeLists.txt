@@ -30,7 +30,7 @@ macro(build_osqp)
     CMAKE_ARGS
       -DCMAKE_INSTALL_PREFIX=${CMAKE_CURRENT_BINARY_DIR}/osqp_install
       -DEMBEDDED:BOOL=OFF
-      -DPROFILING:BOOL=OFF
+      -DPROFILING:BOOL=ON
       ${extra_cmake_args}
   )
 
